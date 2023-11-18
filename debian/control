@@ -1,0 +1,15 @@
+Source: ubuntu-standard-meta
+Priority: standard
+Section: metapackages
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: ubuntu-standard-meta
+Architecture: all
+Depends: ubuntu-minimal-meta, ubuntu-standard
+Provides: apparmor, cron
+Conflicts: apparmor, cron
+Replaces: apparmor, cron
+Description: ubuntu-standard-meta
