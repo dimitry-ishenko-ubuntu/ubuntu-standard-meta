@@ -1,1 +1,1 @@
-ubuntu-standard-meta
+Ubuntu standard meta-package

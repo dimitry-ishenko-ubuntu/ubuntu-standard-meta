@@ -13,3 +13,4 @@ Provides: apparmor, cron
 Conflicts: apparmor, cron
 Replaces: apparmor, cron
 Description: ubuntu-standard-meta
+ Ubuntu standard meta-package
